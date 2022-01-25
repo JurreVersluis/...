@@ -15,7 +15,7 @@ gekoppeld = {
 
 }
 while meer:
-    naam = input ('Wie wil je toevoegen?')
+    naam = input('Wie wil je toevoegen?')
     if deelNemers.__contains__(naam):
         print('Dat is geen unieke naam.')
     else:
